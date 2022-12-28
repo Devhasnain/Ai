@@ -1,0 +1,26 @@
+.pricing .row-1{
+    height: 36vh;
+    align-items: center;
+}
+.pricing button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+}
+.pricing .pricing-cards{
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+}
+.pricing .pricing-cards::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(90deg, #795ffd, #3518c9);
+    border-radius: 30px;
+    transform: rotate(-3deg);
+    z-index: -1;
+  }

@@ -1,0 +1,25 @@
+.contact .row{
+    height: 90vh;
+    align-items: center;
+}
+.contact input{
+    padding: 0.8rem;
+}
+.contact .submit{
+    background-image: linear-gradient(90deg, #795ffd, #3518c9);
+    border: none;
+    color: white;
+    padding: 0.8rem;
+}
+.img-col{
+    display: block;
+}
+@media screen and (max-width: 1000px) {
+    .img-col {
+        display: none;
+    }
+    .form-col{
+        margin: auto;
+    }
+  }
+  

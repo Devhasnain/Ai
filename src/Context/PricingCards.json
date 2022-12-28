@@ -1,0 +1,104 @@
+[
+  {
+    "title": "Free",
+    "money": "0$",
+    "triel": "/Fee triel",
+    "text": "Test before you buy, and upgrade or cancel anytime.",
+    "btn-text":"Get started",
+    "options": [
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": true,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": true,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": true,
+        "text": "10 x Credits"
+      }
+    ],
+    "color": "linear-gradient(90deg,#9ca3af,#374151)"
+  },
+  {
+    "title": "Entry",
+    "money": "30$",
+    "triel": "/Per Month",
+    "text": "Test before you buy, and upgrade or cancel anytime.",
+    "btn-text":"Begin using",
+    "options": [
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": true,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": true,
+        "text": "10 x Credits"
+      }
+    ],
+    "color": "linear-gradient(90deg,#2fc38d,#068c62)"
+  },
+  {
+    "title": "Pro",
+    "money": "90$",
+    "triel": "/Per Month",
+    "text": "Test before you buy, and upgrade or cancel anytime.",
+    "options": [
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      },
+      {
+        "disabled": false,
+        "text": "10 x Credits"
+      }
+    ],
+    "color": "linear-gradient(90deg,#6366f1,#ee4546)",
+    "btn-text":"Try Out"
+  }
+]

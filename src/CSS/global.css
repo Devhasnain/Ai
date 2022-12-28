@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* background-image: linear-gradient(90deg,#795ffd,#3518c9); */
+
+/* background-image: linear-gradient(90deg,#38ffdc,#785dfc); */
+body{
+  overflow-x:hidden;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Inter", sans-serif;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+h1 {
+    background-image: linear-gradient(90deg,#785dfc,#38ffdc);
+  display: inline-block;
+  background-clip: text;
+  color: transparent !important;
+  /* text-shadow: 0 0 10px cyan; */
+}
+.custom-btn {
+  background: linear-gradient(-45deg, #3f00b5, #9f69fe, cyan, #3f00b5);
+  background-size: 800% 400%;
+  padding: 1em 2em;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+  transition: all .5s ease-in-out;
+  animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+ }
+ 
+ .custom-btn:hover {
+  animation: gradient 3s infinite;
+  transform: scale(1.05);
+ }
+ 
+ .custom-btn:active {
+  animation: gradient 3s infinite;
+  transform: scale(0.8);
+ }
+ 
+ @keyframes gradient {
+  0% {
+   background-position: 0% 50%;
+  }
+ 
+  50% {
+   background-position: 100% 50%;
+  }
+ 
+  100% {
+   background-position: 0% 50%;
+  }
+ }
